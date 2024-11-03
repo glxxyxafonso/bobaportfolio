@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f8e8d0; /* Light boba tea color */
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Fun font */
+    color: #2d2100;
+    padding: 10px 0;
+    text-align: center;
+    overflow-y: auto; /* Enable vertical scrolling */
+    width: 100%;
+}
+.center {
+    text-align: center;
+    margin: 20px 0;
+}
+input, button {
+    margin: 10px;
+}
