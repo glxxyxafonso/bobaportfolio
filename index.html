@@ -18,29 +18,22 @@
     <h6>Flavors may contain allergens. Contact your local boba shop to learn more.</h6>
 
     <h2>Find the closest Boba shop near you!</h2>
-    <div class="center">
-        <input type="text" id="cityInput" placeholder="Enter your city">
-        <button onclick="updateMap()">Find Boba</button>
-    </div>
+<div class="center">
+    <form action="" method="GET">
+        <input type="text" name="city" placeholder="Enter your city">
+        <button type="submit">Find Boba</button>
+    </form>
+</div>
 
-    <div class="center">
-        <iframe
-            id="mapEmbed"
-            width="600"
-            height="450"
-            style="border:0"
-            loading="lazy"
-            allowfullscreen
-            referrerpolicy="no-referrer-when-downgrade"
-            src="https://www.google.com/maps?q=boba+shops&output=embed">
-        </iframe>
-    </div>
-
-    <script>
-        function updateMap() {
-            const city = document.getElementById("cityInput").value;
-            const mapEmbed = document.getElementById("mapEmbed");
-            mapEmbed.src = `https://www.google.com/maps?q=boba+shops+${city}&output=embed`;
-        }
-    </script>
+<div class="center">
+    <iframe
+        width="600"
+        height="450"
+        style="border:0"
+        loading="lazy"
+        allowfullscreen
+        referrerpolicy="no-referrer-when-downgrade"
+        src="https://www.google.com/maps?q=boba+shops+{{city}}&output=embed">
+    </iframe>
+</div>
 </body>
