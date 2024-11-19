@@ -1,5 +1,6 @@
 # Boba Portfolio
-It was supposed to be for Boba Drops, but boba drops ended on the 31st October, so now it's sailing the seas!
+It was supposed to be for Boba Drops, but boba drops wasn't available internacionally so now it's sailing the seas!
+I will now be uploading it to Boba Drops (because it was launched internacionally), so BOBA HERE WE GOOO!!
 
 Boba's Portfolio is a simple website that shows you:
 * The most popular boba flavours
